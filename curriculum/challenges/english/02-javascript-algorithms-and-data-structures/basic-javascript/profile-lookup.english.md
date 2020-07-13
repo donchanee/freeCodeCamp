@@ -127,7 +127,7 @@ var contacts = [
 ];
 
 
-//Write your function in between these comments
+  //Write your function in between these comments
 function lookUpProfile(name, prop){
     for(var i in contacts){
       if(contacts[i].firstName === name) {
@@ -136,7 +136,7 @@ function lookUpProfile(name, prop){
     }
    return "No such contact";
 }
-//Write your function in between these comments
+  //Write your function in between these comments
 
 lookUpProfile("Akira", "likes");
 ```
